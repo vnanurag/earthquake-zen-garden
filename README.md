@@ -1,5 +1,5 @@
 # earthquake-zen-garden
-React app displaying a list of earthquakes' information at different places.
+React app displaying a list of earthquakes and their information at different places.
 
 npm install
 -- Installs all the required node modules for this applicaiton
