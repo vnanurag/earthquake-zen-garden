@@ -81,30 +81,10 @@ td{
     text-align: center;
 }
 
-/* Details Component styles */
-
 .details-container{
     padding: 10px;
     margin-top: 5rem;
 }
-
-/* .details-header{
-
-} */
-
-/* .details-section{
-    justify-content: center;
-} */
-
-/* .details-info-header{
-
-}
-
-.details-info-details{
-
-} */
-
-/* Profile component styles */
 
 .profile-container{
     padding: 10px;
@@ -136,10 +116,3 @@ td{
     text-align: left;
 }
 
-/* Color palette:
-#ededed -- light shade
-#777777 -- dark shade
-#444444 -- darker shade
-#0011bb -- blue
-#6600cc -- purple
-Font family: sans-serif */
