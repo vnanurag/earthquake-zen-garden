@@ -13,7 +13,7 @@ class Earthquake extends React.Component{
                 <tbody>
                     <tr>
                         <Link to={`/details/${this.props.id}`}>
-                            <td className='table-title'>{this.props.place}</td>
+                            <td className='table-title' tabIndex={1}>{this.props.place}</td>
                         </Link>
                         <td className='table-data'>{this.props.magnitude}</td>
                         <td className='table-data'>{this.props.time}</td>

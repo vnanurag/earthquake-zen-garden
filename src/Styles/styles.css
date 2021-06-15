@@ -63,19 +63,23 @@ td{
     text-align: left;
 }
 
-.table-title:hover{
-    color: #6600cc;
+.table-title:active{
+    color: #0011bb;
 }
 
-.table-title:visited{
-    color: #0011bb;
+.table-title[tabindex]:focus {
+    color:#0011bb;
+}
+
+.table-title:hover{
+    color: #6600cc;
 }
 
 .table-data{
     color:#777777;
 }
 
-.list-header, .profile-header, .details-header{
+.list-header, .profile-header{
     color:#444444;
     font-weight: bold;
     text-align: center;
@@ -86,12 +90,39 @@ td{
     margin-top: 5rem;
 }
 
+.details-header{
+    color:#444444;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.details-section{
+    justify-content: center;
+    padding: 1rem;
+    font-weight: bold;
+    margin-left: 22rem;
+}
+
+.details-info-header{
+    color: #444444;
+    text-align: left;
+    vertical-align: top;
+    width: 8rem;
+}
+
+.details-info-details{
+    color: #777777;
+    text-align: left;
+    width: 22rem;
+}
+
 .profile-container{
     padding: 10px;
     margin-top: 5rem;
 }
 
-.profile-section, .details-section{
+.profile-section{
     justify-content: center;
 }
 
@@ -104,15 +135,14 @@ td{
     padding: 1rem;
 }
 
-.profile-info-header, .details-info-header{
+.profile-info-header{
     color: #444444;
     text-align: left;
     vertical-align: top;
     width: 8rem;
 }
 
-.profile-info-details, .details-info-details{
+.profile-info-details{
     color: #777777;
     text-align: left;
 }
-

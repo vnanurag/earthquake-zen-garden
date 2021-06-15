@@ -12,45 +12,44 @@ const Details = (props) =>{
 
     return(
         <div className='details-container'>
-            <div className='details-header'>
-                <h4>{details.properties.title}</h4>
-            </div>
             <div class='container'>
-                <div className='row details-section'>
-                    <div className='col-xs-12'>
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td className='details-info-header'>Title</td>
-                                    <td className='details-info-details'>{details.properties.title}</td>
-                                </tr>
-                                <tr>
-                                    <td className='details-info-header'>Magnitude</td>
-                                    <td className='details-info-details'>{details.properties.mag}</td>
-                                </tr>
-                                <tr>
-                                    <td className='details-info-header'>Time</td>
-                                    <td className='details-info-details'>{details.properties.time}</td>
-                                </tr>
-                                <tr>
-                                    <td className='profile-info-header'>Status</td>
-                                    <td className='details-info-details'>{details.properties.status}</td>
-                                </tr>
-                                <tr>
-                                    <td className='details-info-header'>Tsunami</td>
-                                    <td className='details-info-details'>{details.properties.tsunami}</td>
-                                </tr>
-                                <tr>
-                                    <td className='details-info-header'>Type</td>
-                                    <td className='details-info-details'>{details.properties.type}</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                <div className='details-section'>
+                    <div className='row details-header'>
+                    <h4>{details.properties.title}</h4>
+                    </div>
+                    
+                    <div className='row'>
+                        <div className='details-info-header'>Title</div>
+                        <div className='details-info-details'>{details.properties.title}</div>
+                    </div>
+
+                    <div className='row'>
+                        <div className='details-info-header'>Magnitude</div>
+                        <div className='details-info-details'>{details.properties.mag}</div>
+                    </div>
+
+                    <div className='row'>
+                        <div className='details-info-header'>Time</div>
+                        <div className='details-info-details'>{details.properties.time}</div>
+                    </div>
+
+                    <div className='row'>
+                        <div className='details-info-header'>Status</div>
+                        <div className='details-info-details'>{details.properties.status}</div>
+                    </div>
+
+                    <div className='row'>
+                        <div className='details-info-header'>Tsunami</div>
+                        <div className='details-info-details'>{details.properties.tsunami}</div>
+                    </div>
+
+                    <div className='row'>
+                        <div className='details-info-header'>Type</div>
+                        <div className='details-info-details'>{details.properties.type}</div>
                     </div>
                 </div>
             </div>
         </div>
-        
     );
 }
 
